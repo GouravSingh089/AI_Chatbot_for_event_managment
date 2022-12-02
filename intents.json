@@ -1,0 +1,213 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for asking",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Will see you in Amiphoria <3"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand",
+                "I need a little more info to help you."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What can you do?",
+                "Options",
+                "Available Options",
+                "What help you provide?",
+                "How you can be helpful?"
+            ],
+            "responses": [
+                "I can guide you through Amiphoria events, managements, activities",
+                "I can provide support related to following Amiphoria queries technical query,management related query,Events related query,Guests related query,Venue related query."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "Location",
+            "patterns": [
+                "where amiphoria happens?",
+                "locations",
+                "Amiphoria locations in india"
+            ],
+            "responses": [
+                "Amiphoria happens in all 12 Amity branches and these are Noida, Gurugram, Mumbai, Jaiupur, Lucknow, Greater noida, Gwalior, Raipur, Kolkata, Ranchi, Patna, Mohali"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "invalid",
+            "patterns": [
+                "Marry me",
+                "I love You",
+                "date me",
+                "chat with me",
+                "I am bored",
+                "Entertain me"
+            ],
+            "responses": [
+                "Please ask organisation related query."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noans",
+            "patterns": [
+                "why",
+                "how",
+                "when",
+                "I",
+                "you"
+            ],
+            "responses": [
+                "Can't Understand Your Question",
+                "please elaborate your question"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name?",
+                "what should I call you?",
+                "what should i address you as?"
+            ],
+            "responses": [
+                "I'm Anya",
+                "Hey!I'm Anya",
+                "Thanks for asking, you can call me Anya",
+                "I am Anya, nice to meet you."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "how you doing?",
+                "how are you"
+            ],
+            "responses": [
+                "Thanks For Asking!How can I help you?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "who is your creator?",
+                "who created you?",
+                "tell me about your creator."
+            ],
+            "responses": [
+                "My creator is Gourav Kumar Singh, a 4th year student pursuing B.Tech CSE from Amity University Jharkhand."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "amiphoria",
+            "patterns": [
+                "who is amiphoria?",
+                "tell me about amiphoria",
+                "amiphoria"
+            ],
+            "responses": [
+                "Amiphoria is a three-day Annual Youth Cultural Fest organized by Amity university for their students. Performers come all over from the world to take part in this immensly enjoyable and fun fest."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "events",
+            "patterns": [
+                "name some events occur in amiphoria",
+                "tell me about amiphoria events",
+                "what events are there in amiphoria?"
+            ],
+            "responses": [
+                "Amiphoria holds several awesome events like Amity idol, BGMI, Battle of Bands, Stand up act rap up, Brain awards, Photography competition, Nukkad natak competition, Dance, Fashion Show, Rap battle etc."
+            ],
+            "context": [
+                ""
+            ]
+        }
+
+    ]
+}
